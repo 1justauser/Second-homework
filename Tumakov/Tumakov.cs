@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 public struct Bank1Account
 {
     public decimal Savings;
@@ -45,6 +45,7 @@ public class Tumakov
         //виды банковского счета(текущий и сберегательный). Создать переменную типа
         //перечисления, присвоить ей значение и вывести это значение на печать.
         Console.WriteLine("Упражнение 3.1");
+        Console.WriteLine("Перечислимый тип данных отображающий виды банковского счета");
         Bank1Account bank1Account = new Bank1Account();
         bank1Account.Current = 133.22m;
         bank1Account.Savings = 333333.11m;
@@ -53,6 +54,8 @@ public class Tumakov
         //о банковском счете – его номер, тип и баланс. Создать переменную такого типа,
         //заполнить структуру значениями и напечатать результат.
         Console.WriteLine("Упражнение 3.2");
+        Console.WriteLine("Структура данных, которая хранит информацию\n{0}",
+            "о его банковском счете - его номер тип и баланс.");
         Bank2Account bank2Account = new Bank2Account();
         bank2Account.accountNumber = 2230011;
         bank2Account.accountType = "saving";
@@ -62,6 +65,7 @@ public class Tumakov
         //КХТИ}. Создать структуру работник с двумя полями: имя, ВУЗ. Заполнить
         //структуру данными и распечатать.  
         Console.WriteLine("Домашнее задание 3.1");
+        Console.WriteLine("Структура работник с двумя полями: имя, ВУЗ");
         UniverstityWorker Андрей = new UniverstityWorker();
         Андрей.firstName = "Андрей";
         Андрей.universtity = ВУЗ.КАИ;
